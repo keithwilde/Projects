@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center|top|right"
+    android:orientation="horizontal"
+    android:paddingLeft="20dp"
+    android:paddingTop="40dp" >
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+       <TextView
+           android:id="@+id/category_view"
+           android:layout_width="0dp"
+           android:layout_weight="2"
+           android:text="@string/category" >
+
+        </TextView>
+        
+         <AutoCompleteTextView
+             android:id="@+id/add_category"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_weight="3"
+             android:completionThreshold="1"
+           
+             android:inputType="text" />
+
+         <Button
+             android:id="@+id/prod"
+             style="?android:attr/buttonStyleSmall"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="10dp"
+             android:layout_weight="1"
+             android:onClick="symbolClicked"
+             android:text="@string/symbol_prod" />
+
+         <Button
+             android:id="@+id/sum"
+             style="?android:attr/buttonStyleSmall"
+             android:layout_weight="1"
+        	 android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:text="@string/symbol_sum" 
+             android:onClick="symbolClicked" />
+
+         <Button
+             android:id="@+id/sqrt"
+             style="?android:attr/buttonStyleSmall"
+             android:layout_weight="1"
+        	 android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:text="@string/symbol_sqrt" 
+             android:onClick="symbolClicked" />
+
+         <Button
+             android:id="@+id/infinity"
+             style="?android:attr/buttonStyleSmall"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_marginRight="10dp"
+             android:layout_weight="1"
+             android:onClick="symbolClicked"
+             android:text="@string/symbol_infinity" />
+    
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/formula_name"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:text="@string/formula_name_string" >
+        	
+           </TextView>
+        <EditText
+        	android:id="@+id/add_formula_name"
+        	android:inputType="text"
+        	android:layout_weight="3"
+        	android:layout_width="0dp">
+        	
+            </EditText>
+
+        <Button
+            android:id="@+id/integral"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:onClick="symbolClicked"
+            android:text="@string/symbol_integral" />
+
+        <Button
+            android:id="@+id/congruent"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_weight="1"
+        	android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/symbol_congruent" 
+            android:onClick="symbolClicked"/>
+
+        <Button
+            android:id="@+id/almEqual"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_weight="1"
+        	android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/symbol_almEqual"
+            android:onClick="symbolClicked" />
+
+        <Button
+            android:id="@+id/notEqual"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:onClick="symbolClicked"
+            android:text="@string/symbol_notEqual" />
+     
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+         <TextView
+             android:id="@+id/formula_view"
+             android:layout_width="0dp"
+             android:layout_weight="2"
+             android:text="@string/formula" >
+
+           </TextView>
+        <EditText
+            android:layout_weight="3"
+        	android:layout_width="0dp"
+        	android:id="@+id/add_formula"
+        	android:inputType="textMultiLine">
+        	
+            </EditText>
+
+        <Button
+            android:id="@+id/pi"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:onClick="symbolClicked"
+            android:text="@string/symbol_pi" />
+
+        <Button
+            android:id="@+id/omega"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_weight="1"
+        	android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/symbol_omega"
+            android:onClick="symbolClicked" />
+
+        <Button
+            android:id="@+id/beta"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_weight="1"
+        	android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/symbol_beta"
+            android:onClick="symbolClicked" />
+
+        <Button
+            android:id="@+id/theta"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:onClick="symbolClicked"
+            android:text="@string/symbol_theta" />
+
+        "
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp" >
+
+        <Button
+            android:id="@+id/submit_button"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="75dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight=".2"
+            android:onClick="enterClicked"
+            android:text="@string/enter_button" >
+
+            </Button>
+
+        <Button
+            android:id="@+id/cancel_button"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight=".2"
+            android:onClick="cancelClicked"
+            android:text="@string/cancel_button" >
+
+            </Button>
+
+        
+
+    </TableRow>
+
+</TableLayout>

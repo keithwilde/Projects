@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Formula Reference</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="formula_name">Formulas</string>
+    <string name="description">Description</string>
+    <string name="create_edit">Create/Edit</string>
+    <string name ="categories">Categories</string>
+    <string name="category">Category Name</string>
+    <string name="formula">Formula</string>
+	<string name="formula_name_string">Formula Name</string>
+	<string name="enter_button">Enter</string>
+	<string name ="dot_text">&#8230;</string>
+	<string name="cancel_button">Done</string>
+	<string name = "reset_button">Reset Data</string>
+	<string name ="symbol_text">Symbols</string>
+	<string name="new_formula">New</string>
+	<string name="view_formulas">View Formulas</string>
+	
+	<string name="symbol_prod">&#8719;</string>
+	
+	<string name="symbol_sum">&#8721;</string>
+	<string name="symbol_sqrt">&#8730;</string>
+	<string name="symbol_infinity">&#8734;</string>
+	<string name="symbol_integral">&#8747;</string>
+	<string name="symbol_congruent">&#8773;</string>
+	<string name="symbol_almEqual">&#8776;</string>
+	
+	<string name="symbol_notEqual">&#8800;</string>
+	<string name="symbol_pi">&#960;</string>
+	
+	<string name="symbol_omega">&#937;</string>
+	<string name="symbol_beta">&#946;</string>
+	<string name="symbol_theta">&#920;</string>
+	
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.formula"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:theme="@android:style/Theme.Black"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        >
+        <activity
+            android:name="com.example.formula.Start"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+       <activity
+           android:name="com.example.formula.Categories"
+           android:label="@string/categories">
+           
+       </activity>
+       
+       <activity
+           android:name="com.example.formula.Formulas"
+           android:label="@string/formula_name">
+           
+       </activity>
+       
+        <activity
+           android:name="com.example.formula.Description"
+           android:label="@string/description">
+           
+       </activity>
+          <activity
+           android:name="com.example.formula.Create"
+           android:label="@string/create_edit">
+           
+       </activity>
+           
+            
+    </application>
+
+</manifest>

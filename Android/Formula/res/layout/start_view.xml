@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/activity_vertical_margin"
+    android:layout_marginTop="@dimen/activity_vertical_margin"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:layout_margin="5dp"
+        android:onClick="buttonClicked"
+        android:text="@string/view_formulas" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:layout_margin="5dp"
+        android:onClick="buttonClicked"
+        android:text="@string/new_formula" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:layout_margin="5dp"
+        android:onClick="resetClicked"
+        android:text="@string/reset_button" />
+
+</LinearLayout>
